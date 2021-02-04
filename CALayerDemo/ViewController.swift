@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     var currentContainerExpansion: Double = 0 {
         didSet {
-            containerView?.layer.timeOffset = currentContainerExpansion
+            containerView?.layer.timeOffset = currentContainerExpansion //直接调整运行时间进度
         }
     }
     
@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         let draDistanceY = recognizer.translation(in: view).y
         let scaledDragAmount = Double(draDistanceY / maxContainerSize.height)
         currentContainerExpansion = min(max(currentContainerExpansion + scaledDragAmount, 0), 1)
+        print(draDistanceY)
         recognizer.setTranslation(.zero, in: view)
     }
     
