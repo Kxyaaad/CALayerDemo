@@ -13,6 +13,7 @@
 		04911BDE25CA573900538D54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04911BDC25CA573900538D54 /* Main.storyboard */; };
 		04911BE025CA574700538D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04911BDF25CA574700538D54 /* Assets.xcassets */; };
 		04911BE325CA574700538D54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04911BE125CA574700538D54 /* LaunchScreen.storyboard */; };
+		04911BED25CA7A0000538D54 /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04911BEC25CA7A0000538D54 /* EmojiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		04911BDF25CA574700538D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04911BE225CA574700538D54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04911BE425CA574700538D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04911BEC25CA7A0000538D54 /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				04911BD625CA573900538D54 /* AppDelegate.swift */,
 				04911BD825CA573900538D54 /* SceneDelegate.swift */,
 				04911BDA25CA573900538D54 /* ViewController.swift */,
+				04911BEC25CA7A0000538D54 /* EmojiView.swift */,
 				04911BDC25CA573900538D54 /* Main.storyboard */,
 				04911BDF25CA574700538D54 /* Assets.xcassets */,
 				04911BE125CA574700538D54 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04911BDB25CA573900538D54 /* ViewController.swift in Sources */,
+				04911BED25CA7A0000538D54 /* EmojiView.swift in Sources */,
 				04911BD725CA573900538D54 /* AppDelegate.swift in Sources */,
 				04911BD925CA573900538D54 /* SceneDelegate.swift in Sources */,
 			);
